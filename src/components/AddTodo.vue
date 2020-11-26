@@ -17,7 +17,7 @@ export default {
             if(this.title.trim()) {
                 const newTodo = {
                     id: Date.now(),
-                    title: this.text,
+                    title: this.title,
                     completed: false
                 }
 
